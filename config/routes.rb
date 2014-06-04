@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+ 
+
+ # resources :samples
+  
+get 'first/index'
+get 'first/new'
+get 'first/show'
+post 'first/create'
+get 'first/edit'
+patch 'first/update'
+delete 'first/destroy'
+  #get 'first/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
